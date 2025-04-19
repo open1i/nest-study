@@ -1,1 +1,29 @@
+# dependencies
 node_modules
+
+# environment variables
+.env
+.env.*
+!.env.example
+
+# build output
+/dist
+
+# logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# OS
+.DS_Store
+
+# IDE
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
